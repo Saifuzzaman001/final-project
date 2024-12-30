@@ -1,0 +1,49 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel='stylesheet' href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    {{! <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> }}
+    <title>Visionary</title>
+  </head>
+  <body>
+
+
+
+{{>navbar}}
+{{!-- herosection --}}
+<div class="container-fluid mt-5" style="
+    background-color: #242121; padding-top:100px; padding-bottom:100px;
+">
+  <div class="row">
+    <div class="col-md-10 col-12 m-auto">
+        <div class="row">
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+              <h1>Welcome to Delta</h1>
+              <h1>Make Your Business Big</h1>
+              <p>Are you looking for a Web design marketing agency in the United States? You are in good hands ! We provide services like Web design, Digital Marketing, Graphic design, Website mantainence etc.
+</p>
+              <button class="btn-style btn-primary">Get Started</button>
+          </div>
+          <div class="col-md-6 col-12 hero-text ">
+             <figure>
+              <img src="images/14.png" style="width: 500px; height:500px">
+             </figure>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+{{>about}}
+{{>services}}
+{{>contact}}
+
+
+
+    <script src='../jq/jquery.js' type='text/javascripy'></script>
+    <script src='../js/bootstrap.js' type='text/javascripy'></script>
+
+  </body>
+</html>

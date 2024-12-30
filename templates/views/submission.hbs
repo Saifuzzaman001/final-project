@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <link rel='stylesheet' href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css"/>
+  {{! <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> }}
+  <title>Document</title>
+  <style>
+    /* Additional CSS for full centering */
+    .center-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+{{>navbar}}
+
+<!-- Centered content -->
+<div class="center-content">
+  <h1>Your Appointment is Submitted</h1>
+  <p>Thank you for submitting your appointment. We have received your request and will process it shortly.</p>
+</div>
+
+<script src='../jq/jquery.js' type='text/javascript'></script>
+<script src='../js/bootstrap.js' type='text/javascript'></script>
+
+</body>
+</html>
